@@ -3,8 +3,8 @@
 &nbsp;
 ### **_Conteúdos abordados:_**
 
-Módulo 0: Scratch;
-Módulo 1: C;
+<a href="./mod-0-scratch/">Módulo 0: Scratch;</a>
+<a href="./mod-1-C/">Módulo 1: C;</a>
 Módulo 2: Arrays;
 Módulo 3: Algoritmos;
 Módulo 4: Memória;
