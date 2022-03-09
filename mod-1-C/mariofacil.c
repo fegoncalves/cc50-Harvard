@@ -45,10 +45,10 @@ int main(void)
             printf("#");
         }
 
-        //Prints spaces between pyramids
+        //Impressão de espaços entre as pirâmides
         printf("  ");
 
-        //Prints new line for each row of pyramid
+        //Impressão de novas linhas
         printf("\n");
     }
 }
