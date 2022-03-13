@@ -7,14 +7,27 @@ Perto do final do Mundo 1-1 no Super Mario Brothers da Nintendo, Mario deve asce
 
 Vamos recriar essa pirâmide em C, ainda que em texto, usando hashes ( # ) para tijolos, como visto a seguir. Cada hash é um pouco mais alto do que largo, então a pirâmide em si também é mais alta do que larga.
 
-              #
-            ##
-          ###
-        ####
-      #####
-    ######
+       #
+      ##
+     ###
+    ####
+   #####
+  ######
  #######
 ########
+
+Se o usuário não inserir, de fato, um número inteiro positivo entre 1 e 8, inclusive, quando solicitado, o programa deve solicitar novamente ao usuário até que ele coopere:
+
+$ ./mario
+Tamanho: -1               
+Tamanho: 0               
+Tamanho: 42               
+Tamanho: 9               
+Tamanho: 4               
+   #
+  ##
+ ###
+####
 */
 
 #include <cs50.h>
@@ -44,9 +57,6 @@ int main(void)
         {
             printf("#");
         }
-
-        //Impressão de espaços entre as pirâmides
-        printf("  ");
 
         //Impressão de novas linhas
         printf("\n");
